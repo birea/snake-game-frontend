@@ -1,0 +1,49 @@
+.modal {
+    opacity: 0.95;
+}
+
+.modal-header {
+    background-color: white;
+    border-bottom-width: thin;
+    border-bottom-color: darkgrey;
+}
+
+.modal-title {
+    text-align: center;
+    text-justify: auto;
+    color: grey;
+}
+
+.modal-body {
+    color: darkgrey;
+    text-align: center;
+    text-justify: auto;
+    background:
+            linear-gradient(110deg, #fff 5%, rgba(0,0,0,0) 5%),
+            linear-gradient(110deg, rgba(0,0,0,0) 10%, #fff 10%);
+}
+
+.modal-footer {
+    color: darkgrey;
+    border-top-width: thin;
+    border-top-color: darkgrey;
+    background-color: white;
+}
+
+.btn {
+    color: white;
+    border: none;
+    background-color: lightgrey;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    border: none;
+    color: grey;
+}
+
+.btn:active {
+    background-color: lightgrey;
+    border: none;
+    color: black;
+}
